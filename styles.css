@@ -1,0 +1,68 @@
+.botao-roxo {
+    background-color: #6610f2;
+    color: white;
+}
+
+.texto-roxo {
+    color: #6610f2;
+}
+
+.fundo-roxo-claro {
+    background-color: rgba(100, 41, 255, 0.4);
+    border-radius: 20px;
+}
+
+.botao-ciano {
+    background-color: #0dcaf0;
+    color: black;
+}
+
+.loader {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    border-top: 8px solid #6610f2;
+    border-left: 8px solid #6610f2;
+    border-right: 8px solid rgba(255, 255, 255, 0);
+    animation:
+        spin .800s 10 linear,
+        colorir .800s 1 forwards;
+    animation-delay:
+        0s,
+        8s;
+
+
+}
+
+.checksign {
+    width: 25px;
+    height: 40px;
+    visibility: hidden;
+    border-bottom: 8px solid #fff;
+    border-right: 8px solid #fff;
+    transform: rotate(45deg);
+    animation:
+        showcheck .800s infinite forwards;
+    animation-delay:
+        8.1s;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes colorir {
+    to {
+        background-color: #6610f2;
+    }
+}
+
+@keyframes showcheck {
+    to {
+        visibility: visible;
+    }
+}

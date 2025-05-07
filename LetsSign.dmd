@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="LetsSign" id="A0925BBB-B6FB-AD02-53C4-0E4D9C7890AB" version="3.5">
+<createdBy>tiagocuzzuolnunes</createdBy>
+<createdTime>2024-12-05 02:22:09 UTC</createdTime>
+<ownerDesignName>LetsSign</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A0925BBB-B6FB-AD02-53C4-0E4D9C7890AB</designId>
+</OSDM_Design>
